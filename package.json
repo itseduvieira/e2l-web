@@ -9,11 +9,11 @@
   "devDependencies": {},
   "scripts": {
     "ng": "ng",
-    "start": "ng serve -o",
-    "build": "ng build --prod",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
+    "start": "npm serve -o",
+    "build": "npm build --prod",
+    "test": "npm test",
+    "lint": "npm lint",
+    "e2e": "npm e2e",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install",
     "deploy": "node node_modules/firebase-tools/lib/bin/firebase deploy --only hosting:web-e2l",
     "deploy:bitbucket": "node node_modules/firebase-tools/lib/bin/firebase deploy --only hosting:web-e2l --token $FIREBASE_TOKEN"
