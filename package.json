@@ -1,0 +1,21 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "firebase-tools": "^8.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve -o",
+    "build": "ng build --prod",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install",
+    "deploy": "node node_modules/firebase-tools/lib/bin/firebase deploy --only hosting:web-e2l",
+    "deploy:bitbucket": "node node_modules/firebase-tools/lib/bin/firebase deploy --only hosting:web-e2l --token $FIREBASE_TOKEN"
+  }
+}
