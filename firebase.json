@@ -1,11 +1,17 @@
 {
   "hosting": {
     "site": "web-e2l",
-    "public": "dist",
+    "public": "src",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
     ]
   }
 }
