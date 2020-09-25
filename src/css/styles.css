@@ -3133,7 +3133,7 @@ input::-moz-focus-inner {
 }
 
 .s-header__logo img {
-    width: 115px;
+    width: 151px;
     margin-bottom: 0;
 }
 
@@ -3142,7 +3142,7 @@ input::-moz-focus-inner {
  * ## main navigation
  * ------------------------------------------------------------------- */
 .s-header__nav-wrap {
-    padding-left: 21.6rem;
+    padding-left: 23.6rem;
 }
 
 .s-header__nav {
@@ -3328,7 +3328,7 @@ input::-moz-focus-inner {
         left: 6rem;
     }
     .s-header__nav-wrap {
-        padding-left: 19.6rem;
+        padding-left: 23.6rem;
     }
     .s-header__content .btn {
         right: 6rem;
@@ -3698,8 +3698,8 @@ html.ss-preload .s-hero__content {
 html.ss-loaded .s-hero__content {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
-    -webkit-animation-duration: 3s;
-    animation-duration: 3s;
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
     -webkit-animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
     animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
     -webkit-animation-fill-mode: both;
